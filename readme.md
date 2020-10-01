@@ -90,6 +90,7 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [Memcached Mixin](https://github.com/grafana/jsonnet-libs/blob/master/memcached-mixin) - A set of reuseable and extensible dashboards for Memcached.
 - [SLO libsonnet](https://github.com/metalmatze/slo-libsonnet) :construction: - Generate Prometheus alerting & recording rules and Grafana dashboards for your SLOs.
 - [ksonnet-lib](https://github.com/ksonnet/ksonnet-lib) :skull: - Generated mixins for Kubernetes used by ksonnet.
+- [grafana-dashboards](https://github.com/ncabatoff/grafana-dashboards) - A collection of Grafana Dashboards by [ncabatoff](https://github.com/ncabatoff).
 
 ### Tools
 
