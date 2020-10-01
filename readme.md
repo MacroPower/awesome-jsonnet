@@ -2,7 +2,6 @@
 
 > A curated list of [Jsonnet](https://jsonnet.org/) libraries, utilities, and other resources.
 
-
 ## Contents
 
 - [Legend](#legend)
@@ -11,13 +10,13 @@
 - [General](#general)
 - [Mixins](#mixins)
 - [Kubernetes](#kubernetes)
-
+- [Contribute](#contribute)
+- [License](#license)
 
 ## Legend
 
 - Abandoned / Outdated :skull:
 - Alpha / WIP :construction:
-
 
 ## What is Jsonnet
 
@@ -36,14 +35,12 @@ A simple extension of JSON
 - Editor & IDE integrations
 - Formally specified
 
-_Source_: https://jsonnet.org/
-
+_Source_: [jsonnet.org](https://jsonnet.org/)
 
 ## Implementations
 
 - [jsonnet](https://github.com/google/jsonnet) - Original C++ implementation of Jsonnet.
 - [go-jsonnet](https://github.com/google/go-jsonnet) - An implementation of Jsonnet in pure Go.
-
 
 ## General
 
@@ -58,17 +55,24 @@ _Source_: https://jsonnet.org/
 - [Jsonnet](https://youtu.be/i5PVp92tAmE) - Jsonnet high-level tutorial.
 - [Databricks Jsonnet Guide](https://github.com/databricks/jsonnet-style-guide) - Databricks' Jsonnet coding style guide.
 
-### Unit Testing
+### Extensions
 
 - [JsonnetUnit](https://github.com/yugui/jsonnetunit) - Unit testing framework for Jsonnet.
+- [xtd](https://jsonnet-libs.github.io/xtd/) - Extended Jsonnet standard library.
 
 ### Tooling
 
 - [Jsonnet Tooling](https://jsonnet.org/learning/tools.html) - Official and recommended 3rd party tooling.
 - [vscode-jsonnet-language](https://github.com/liamdawson/vscode-jsonnet-language) - Replacement for the now defunct Hepito vscode language support.
 
-
 ## Mixins
+
+Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording rules, and/or Prometheus alerts.
+
+### Websites
+
+- [monitoring.mixins.dev](https://monitoring.mixins.dev/) - Comprehensive resource for mixins.
+- [promtools.dev](https://promtools.dev) - Generate SLOs for Prometheus with Jsonnet. Implements [SLO libsonnet](https://github.com/metalmatze/slo-libsonnet).
 
 ### Libraries
 
@@ -78,21 +82,19 @@ _Source_: https://jsonnet.org/
 - [Jaeger Mixin](https://github.com/jaegertracing/jaeger/tree/master/monitoring/jaeger-mixin) - Prometheus monitoring mixin for Jaeger.
 - [Kubernetes Mixin](https://github.com/kubernetes-monitoring/kubernetes-mixin) :construction: - A set of Grafana dashboards and Prometheus alerts for Kubernetes.
 - [Cortex Mixin](https://github.com/grafana/cortex-jsonnet) - This repo has the jsonnet for deploying cortex and the related monitoring in Kubernetes.
-- [Thanos Mixin](https://github.com/thanos-io/thanos/tree/master/mixin) :construction: - This directory contains extensible and customizable monitoring definitons for Thanos.
+- [Thanos Mixin](https://github.com/thanos-io/thanos/tree/master/mixin) :construction: - This directory contains extensible and customizable monitoring definitions for Thanos.
 - [grafana-builder](https://github.com/grafana/jsonnet-libs/tree/master/grafana-builder) - A library for building Grafana dashboards with jsonnet, following the builder pattern.
 - [mixin-utils](https://github.com/grafana/jsonnet-libs/tree/master/mixin-utils) - Grafana Labs' mixin utilities.
 - [Prometheus Ksonnet Mixin](https://github.com/grafana/jsonnet-libs/tree/master/prometheus-ksonnet) :skull: - A set of extensible configurations for running Prometheus on Kubernetes.
 - [HashiCorp Consul Mixin](https://github.com/grafana/jsonnet-libs/tree/master/consul-mixin) - A set of reuseable and extensible dashboards and alerts for running Hashicorp's Consul.
 - [Memcached Mixin](https://github.com/grafana/jsonnet-libs/blob/master/memcached-mixin) - A set of reuseable and extensible dashboards for Memcached.
 - [SLO libsonnet](https://github.com/metalmatze/slo-libsonnet) :construction: - Generate Prometheus alerting & recording rules and Grafana dashboards for your SLOs.
-- [xtd](https://jsonnet-libs.github.io/xtd/) - Extended Jsonnet standard library.
 - [ksonnet-lib](https://github.com/ksonnet/ksonnet-lib) :skull: - Generated mixins for Kubernetes used by ksonnet.
 
-### Utilities
+### Tools
 
 - [mixtool](https://github.com/monitoring-mixins/mixtool) :construction: - mixtool is a helper for easily working with jsonnet mixins.
 - [Grizzly](https://github.com/malcolmholmes/grizzly) :construction: - A utility for managing Jsonnet dashboards against the Grafana API.
-- [promtools](https://promtools.dev) - Generate SLOs for Prometheus via HTTP with Jsonnet.
 
 ### Guides & Talks
 
@@ -102,13 +104,11 @@ _Source_: https://jsonnet.org/
 - [Prometheus Monitoring Mixins](https://youtu.be/GDdnL5R_l-Y) - PromCon 2018 talk by Tom Wilkie.
 - [Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://www.youtube.com/watch?v=b7-DtFfsL6E) - Talk by Tom Wilkie.
 - [Automating Grafana Dashboards with Jsonnet](https://youtu.be/zmsZq9Pfp1g) - Grafanacon 2018 talk by Julien Pivotto.
-- [monitoring-mixins/docs](https://github.com/monitoring-mixins/docs) - Collection of documents around using Jsonnet to package together dashboards, rules and alerts.
 
 ### CI/CD
 
-- [Grafonnet Lib Docker](https://github.com/AndrewFarley/grafonnet-lib-dockerhub) - A simple Docker image that has jsonnet and grafana's grafonnet lib for CI/CD purposes.
+- [Grafonnet Lib Docker](https://github.com/AndrewFarley/grafonnet-lib-dockerhub) - A simple Docker image that has Jsonnet and Grafana's grafonnet lib for CI/CD purposes.
 - [grafana-dashboards](https://github.com/adamwg/grafana-dashboards) - An example project containing Github actions to automate dashboard CI/CD.
-
 
 ## Kubernetes
 
@@ -124,7 +124,7 @@ _Source_: https://jsonnet.org/
 - [ksonnet-util](https://github.com/grafana/jsonnet-libs/blob/master/ksonnet-util) :skull: - An overlay and set of utilities for ksonnet that makes working with the library easier.
 - [oauth2-proxy](https://github.com/grafana/jsonnet-libs/blob/master/oauth2-proxy) - A ksonnet configuration for deploying bitly's OAuth proxy to Kubernetes.
 
-### Utilities
+### Tools
 
 - [Tanka](https://tanka.dev/) - Flexible, reusable and concise configuration for Kubernetes by [Grafana](https://grafana.com/).
 - [qbec](https://qbec.io/) - A tool to configure and create Kubernetes objects on multiple environments by [Splunk](https://www.splunk.com/).
@@ -135,11 +135,9 @@ _Source_: https://jsonnet.org/
 - [How the Jsonnet-based project Tanka improves Kubernetes usage](https://grafana.com/blog/2020/03/11/how-the-jsonnet-based-project-tanka-improves-kubernetes-usage/) - FOSDEM 2020 talk by Tom Braack and Malcolm Holmes.
 - [YAML is for Computers. ksonnet is for Humans](https://www.youtube.com/watch?v=FjdS21McgpE) :skull: - Talk by Bryan Liles, Heptio (Any Skill Level).
 
-
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
-
 
 ## License
 
