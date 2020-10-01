@@ -46,7 +46,7 @@ _Source_: [jsonnet.org](https://jsonnet.org/)
 
 - [Jsonnet Tutorial](https://jsonnet.org/learning/tutorial.html) - Official Jsonnet tutorial.
 - [Jsonnet Getting Started](https://jsonnet.org/learning/getting_started.html) - Official Jsonnet getting started guide.
-- [Jsonnet](https://youtu.be/i5PVp92tAmE) - Jsonnet high-level tutorial.
+- [Implus Jsonnet Tutorial](https://youtu.be/i5PVp92tAmE) - Jsonnet high-level tutorial.
 - [Databricks Jsonnet Guide](https://github.com/databricks/jsonnet-style-guide) - Databricks' Jsonnet coding style guide.
 
 ### Extensions
