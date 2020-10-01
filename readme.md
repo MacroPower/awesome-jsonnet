@@ -15,7 +15,6 @@
 
 ## Legend
 
-- Abandoned / Outdated :skull:
 - Alpha / WIP :construction:
 
 ## What is Jsonnet
@@ -83,9 +82,7 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [Jaeger Mixin](https://github.com/jaegertracing/jaeger/tree/master/monitoring/jaeger-mixin) - Official Prometheus monitoring mixin for Jaeger.
 - [grafana-builder](https://github.com/grafana/jsonnet-libs/tree/master/grafana-builder) - Library for building Grafana dashboards with Jsonnet, following the builder pattern.
 - [mixin-utils](https://github.com/grafana/jsonnet-libs/tree/master/mixin-utils) - Grafana Labs' mixin utilities.
-- [Prometheus Ksonnet Mixin](https://github.com/grafana/jsonnet-libs/tree/master/prometheus-ksonnet) :skull: - A set of extensible configurations for running Prometheus on Kubernetes.
 - [SLO libsonnet](https://github.com/metalmatze/slo-libsonnet) :construction: - Generate Prometheus alerting & recording rules and Grafana dashboards for your SLOs.
-- [ksonnet-lib](https://github.com/ksonnet/ksonnet-lib) :skull: - Generated mixins for Kubernetes used by ksonnet.
 - [grafana-dashboards](https://github.com/ncabatoff/grafana-dashboards) - Collection of Grafana dashboards created by [ncabatoff](https://github.com/ncabatoff).
 
 ### Tools
@@ -115,22 +112,16 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [kube-thanos](https://github.com/thanos-io/kube-thanos) - Kubernetes specific configuration for deploying Thanos.
 - [kubernetes-grafana](https://github.com/brancz/kubernetes-grafana) - The future of Grafana on Kubernetes with Prometheus.
 - [prometheus-operator](https://github.com/coreos/prometheus-operator/tree/master/jsonnet/prometheus-operator) - Jsonnet for deploying Prometheus Operator in Kubernetes.
-- [ksonnet-loki](https://github.com/grafana/loki/tree/master/production/ksonnet/loki) :skull: - Jsonnet for deploying Loki in Kubernetes.
-- [ksonnet-promtail](https://github.com/grafana/loki/tree/master/production/ksonnet/promtail) :skull: - Jsonnet for deploying promtail in Kubernetes.
 - [kube-prometheus](https://github.com/coreos/kube-prometheus/tree/master/jsonnet/kube-prometheus) - Jsonnet for deploying Prometheus in Kubernetes.
-- [ksonnet-util](https://github.com/grafana/jsonnet-libs/blob/master/ksonnet-util) :skull: - An overlay and set of utilities for ksonnet that makes working with the library easier.
-- [oauth2-proxy](https://github.com/grafana/jsonnet-libs/blob/master/oauth2-proxy) - :skull: ksonnet configuration for deploying bitly's OAuth proxy to Kubernetes.
 
 ### Tools
 
 - [Tanka](https://tanka.dev/) - Flexible, reusable and concise configuration for Kubernetes by [Grafana](https://grafana.com/).
 - [qbec](https://qbec.io/) - A tool to configure and create Kubernetes objects on multiple environments by [Splunk](https://www.splunk.com/).
-- [ksonnet](https://ksonnet.io) :skull: - Streamline how you write and deploy Kubernetes configurations by [Heptio](https://heptio.com) & [bitnami](https://bitnami.com).
 
 ### Guides & Talks
 
 - [How the Jsonnet-based project Tanka improves Kubernetes usage](https://grafana.com/blog/2020/03/11/how-the-jsonnet-based-project-tanka-improves-kubernetes-usage/) - FOSDEM 2020 talk by Tom Braack and Malcolm Holmes.
-- [YAML is for Computers. ksonnet is for Humans](https://www.youtube.com/watch?v=FjdS21McgpE) :skull: - Talk by Bryan Liles, Heptio (Any Skill Level).
 
 ## Contribute
 
