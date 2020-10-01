@@ -69,6 +69,8 @@ _Source_: [jsonnet.org](https://jsonnet.org/)
 
 Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording rules, and/or Prometheus alerts.
 
+**Readers should begin by visiting [monitoring.mixins.dev](https://monitoring.mixins.dev/), _the_ comprehensive resource for mixins. This repo only includes links to mixin resources not already found on monitoring.mixins.dev.**
+
 ### Websites
 
 - [monitoring.mixins.dev](https://monitoring.mixins.dev/) - Comprehensive resource for mixins.
@@ -77,17 +79,11 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 ### Libraries
 
 - [Grafonnet](https://grafana.github.io/grafonnet-lib/) - Jsonnet library for generating Grafana dashboard files.
-- [Prometheus Mixin](https://github.com/prometheus/prometheus/tree/master/documentation/prometheus-mixin) :construction: - Set of Jsonnet alerts and dashboards for Prometheus.
 - [ECS Mixin](https://github.com/Voronenko/sa_grafonnet_lib) - Set of panels, metrics, templates to visualize state of your ECS clusters.
-- [Jaeger Mixin](https://github.com/jaegertracing/jaeger/tree/master/monitoring/jaeger-mixin) - Prometheus monitoring mixin for Jaeger.
-- [Kubernetes Mixin](https://github.com/kubernetes-monitoring/kubernetes-mixin) :construction: - A set of Grafana dashboards and Prometheus alerts for Kubernetes.
-- [Cortex Mixin](https://github.com/grafana/cortex-jsonnet) - This repo has the jsonnet for deploying cortex and the related monitoring in Kubernetes.
-- [Thanos Mixin](https://github.com/thanos-io/thanos/tree/master/mixin) :construction: - This directory contains extensible and customizable monitoring definitions for Thanos.
+- [Jaeger Mixin](https://github.com/jaegertracing/jaeger/tree/master/monitoring/jaeger-mixin) - Official Prometheus monitoring mixin for Jaeger.
 - [grafana-builder](https://github.com/grafana/jsonnet-libs/tree/master/grafana-builder) - A library for building Grafana dashboards with jsonnet, following the builder pattern.
 - [mixin-utils](https://github.com/grafana/jsonnet-libs/tree/master/mixin-utils) - Grafana Labs' mixin utilities.
 - [Prometheus Ksonnet Mixin](https://github.com/grafana/jsonnet-libs/tree/master/prometheus-ksonnet) :skull: - A set of extensible configurations for running Prometheus on Kubernetes.
-- [HashiCorp Consul Mixin](https://github.com/grafana/jsonnet-libs/tree/master/consul-mixin) - A set of reuseable and extensible dashboards and alerts for running Hashicorp's Consul.
-- [Memcached Mixin](https://github.com/grafana/jsonnet-libs/blob/master/memcached-mixin) - A set of reuseable and extensible dashboards for Memcached.
 - [SLO libsonnet](https://github.com/metalmatze/slo-libsonnet) :construction: - Generate Prometheus alerting & recording rules and Grafana dashboards for your SLOs.
 - [ksonnet-lib](https://github.com/ksonnet/ksonnet-lib) :skull: - Generated mixins for Kubernetes used by ksonnet.
 - [grafana-dashboards](https://github.com/ncabatoff/grafana-dashboards) - A collection of Grafana Dashboards by [ncabatoff](https://github.com/ncabatoff).
