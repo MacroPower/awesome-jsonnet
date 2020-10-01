@@ -113,6 +113,7 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [kubernetes-grafana](https://github.com/brancz/kubernetes-grafana) - The future of Grafana on Kubernetes with Prometheus.
 - [prometheus-operator](https://github.com/coreos/prometheus-operator/tree/master/jsonnet/prometheus-operator) - Jsonnet for deploying Prometheus Operator in Kubernetes.
 - [kube-prometheus](https://github.com/coreos/kube-prometheus/tree/master/jsonnet/kube-prometheus) - Jsonnet for deploying Prometheus in Kubernetes.
+- [blackbox-exporter-jsonnet](https://github.com/brancz/blackbox-exporter-jsonnet) - Jsonnet code for basic Kubernetes manifests for the [blackbox-exporter](https://github.com/prometheus/blackbox_exporter).
 
 ### Tools
 
