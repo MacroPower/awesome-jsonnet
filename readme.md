@@ -63,7 +63,7 @@ _Source_: [jsonnet.org](https://jsonnet.org/)
 ### Tooling
 
 - [Jsonnet Tooling](https://jsonnet.org/learning/tools.html) - Official and recommended 3rd party tooling.
-- [vscode-jsonnet-language](https://github.com/liamdawson/vscode-jsonnet-language) - Replacement for the now defunct Hepito vscode language support.
+- [vscode-jsonnet-language](https://github.com/liamdawson/vscode-jsonnet-language) - Replacement for the now defunct Hepito VS Code language support.
 
 ## Mixins
 
@@ -81,12 +81,12 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [Grafonnet](https://grafana.github.io/grafonnet-lib/) - Jsonnet library for generating Grafana dashboard files.
 - [ECS Mixin](https://github.com/Voronenko/sa_grafonnet_lib) - Set of panels, metrics, templates to visualize state of your ECS clusters.
 - [Jaeger Mixin](https://github.com/jaegertracing/jaeger/tree/master/monitoring/jaeger-mixin) - Official Prometheus monitoring mixin for Jaeger.
-- [grafana-builder](https://github.com/grafana/jsonnet-libs/tree/master/grafana-builder) - A library for building Grafana dashboards with jsonnet, following the builder pattern.
+- [grafana-builder](https://github.com/grafana/jsonnet-libs/tree/master/grafana-builder) - Library for building Grafana dashboards with Jsonnet, following the builder pattern.
 - [mixin-utils](https://github.com/grafana/jsonnet-libs/tree/master/mixin-utils) - Grafana Labs' mixin utilities.
 - [Prometheus Ksonnet Mixin](https://github.com/grafana/jsonnet-libs/tree/master/prometheus-ksonnet) :skull: - A set of extensible configurations for running Prometheus on Kubernetes.
 - [SLO libsonnet](https://github.com/metalmatze/slo-libsonnet) :construction: - Generate Prometheus alerting & recording rules and Grafana dashboards for your SLOs.
 - [ksonnet-lib](https://github.com/ksonnet/ksonnet-lib) :skull: - Generated mixins for Kubernetes used by ksonnet.
-- [grafana-dashboards](https://github.com/ncabatoff/grafana-dashboards) - A collection of Grafana Dashboards by [ncabatoff](https://github.com/ncabatoff).
+- [grafana-dashboards](https://github.com/ncabatoff/grafana-dashboards) - Collection of Grafana dashboards created by [ncabatoff](https://github.com/ncabatoff).
 
 ### Tools
 
@@ -111,15 +111,15 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 
 ### Libraries
 
-- [cortex-jsonnet](https://github.com/grafana/cortex-jsonnet) - This repo has the jsonnet for deploying cortex and the related monitoring in Kubernetes.
+- [cortex-jsonnet](https://github.com/grafana/cortex-jsonnet) - Jsonnet for deploying Cortex and the related monitoring in Kubernetes.
 - [kube-thanos](https://github.com/thanos-io/kube-thanos) - Kubernetes specific configuration for deploying Thanos.
 - [kubernetes-grafana](https://github.com/brancz/kubernetes-grafana) - The future of Grafana on Kubernetes with Prometheus.
-- [prometheus-operator](https://github.com/coreos/prometheus-operator/tree/master/jsonnet/prometheus-operator) - This repo has the jsonnet for deploying Prometheus Operator in Kubernetes.
-- [ksonnet-loki](https://github.com/grafana/loki/tree/master/production/ksonnet/loki) :skull: - This repo has the jsonnet for deploying Loki in Kubernetes.
-- [ksonnet-promtail](https://github.com/grafana/loki/tree/master/production/ksonnet/promtail) :skull: - This repo has the jsonnet for deploying promtail in Kubernetes.
-- [kube-prometheus](https://github.com/coreos/kube-prometheus/tree/master/jsonnet/kube-prometheus) - This repo has the jsonnet for deploying Prometheus in Kubernetes.
+- [prometheus-operator](https://github.com/coreos/prometheus-operator/tree/master/jsonnet/prometheus-operator) - Jsonnet for deploying Prometheus Operator in Kubernetes.
+- [ksonnet-loki](https://github.com/grafana/loki/tree/master/production/ksonnet/loki) :skull: - Jsonnet for deploying Loki in Kubernetes.
+- [ksonnet-promtail](https://github.com/grafana/loki/tree/master/production/ksonnet/promtail) :skull: - Jsonnet for deploying promtail in Kubernetes.
+- [kube-prometheus](https://github.com/coreos/kube-prometheus/tree/master/jsonnet/kube-prometheus) - Jsonnet for deploying Prometheus in Kubernetes.
 - [ksonnet-util](https://github.com/grafana/jsonnet-libs/blob/master/ksonnet-util) :skull: - An overlay and set of utilities for ksonnet that makes working with the library easier.
-- [oauth2-proxy](https://github.com/grafana/jsonnet-libs/blob/master/oauth2-proxy) - A ksonnet configuration for deploying bitly's OAuth proxy to Kubernetes.
+- [oauth2-proxy](https://github.com/grafana/jsonnet-libs/blob/master/oauth2-proxy) - :skull: ksonnet configuration for deploying bitly's OAuth proxy to Kubernetes.
 
 ### Tools
 
