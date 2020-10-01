@@ -4,7 +4,6 @@
 
 ## Contents
 
-- [Legend](#legend)
 - [What is Jsonnet](#what-is-jsonnet)
 - [Implementations](#implementations)
 - [General](#general)
@@ -12,10 +11,6 @@
 - [Kubernetes](#kubernetes)
 - [Contribute](#contribute)
 - [License](#license)
-
-## Legend
-
-- Alpha / WIP :construction:
 
 ## What is Jsonnet
 
@@ -82,13 +77,13 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [Jaeger Mixin](https://github.com/jaegertracing/jaeger/tree/master/monitoring/jaeger-mixin) - Official Prometheus monitoring mixin for Jaeger.
 - [grafana-builder](https://github.com/grafana/jsonnet-libs/tree/master/grafana-builder) - Library for building Grafana dashboards with Jsonnet, following the builder pattern.
 - [mixin-utils](https://github.com/grafana/jsonnet-libs/tree/master/mixin-utils) - Grafana Labs' mixin utilities.
-- [SLO libsonnet](https://github.com/metalmatze/slo-libsonnet) :construction: - Generate Prometheus alerting & recording rules and Grafana dashboards for your SLOs.
+- [SLO libsonnet](https://github.com/metalmatze/slo-libsonnet) - Generate Prometheus alerting & recording rules and Grafana dashboards for your SLOs.
 - [grafana-dashboards](https://github.com/ncabatoff/grafana-dashboards) - Collection of Grafana dashboards created by [ncabatoff](https://github.com/ncabatoff).
 
 ### Tools
 
-- [mixtool](https://github.com/monitoring-mixins/mixtool) :construction: - mixtool is a helper for easily working with jsonnet mixins.
-- [Grizzly](https://github.com/malcolmholmes/grizzly) :construction: - A utility for managing Jsonnet dashboards against the Grafana API.
+- [mixtool](https://github.com/monitoring-mixins/mixtool) - mixtool is a helper for easily working with jsonnet mixins.
+- [Grizzly](https://github.com/malcolmholmes/grizzly) - A utility for managing Jsonnet dashboards against the Grafana API.
 
 ### Guides & Talks
 
