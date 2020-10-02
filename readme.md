@@ -78,6 +78,7 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [grafana-builder](https://github.com/grafana/jsonnet-libs/tree/master/grafana-builder) - Library for building Grafana dashboards with Jsonnet, following the builder pattern.
 - [mixin-utils](https://github.com/grafana/jsonnet-libs/tree/master/mixin-utils) - Grafana Labs' mixin utilities.
 - [SLO libsonnet](https://github.com/metalmatze/slo-libsonnet) - Generate Prometheus alerting & recording rules and Grafana dashboards for your SLOs.
+- [Prometheus Ksonnet Mixin](https://github.com/grafana/jsonnet-libs/tree/master/prometheus-ksonnet) - A set of extensible configurations for running Prometheus on Kubernetes.
 - [grafana-dashboards](https://github.com/ncabatoff/grafana-dashboards) - Collection of Grafana dashboards created by [ncabatoff](https://github.com/ncabatoff).
 
 ### Tools
@@ -107,8 +108,11 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [kube-thanos](https://github.com/thanos-io/kube-thanos) - Kubernetes specific configuration for deploying Thanos.
 - [kubernetes-grafana](https://github.com/brancz/kubernetes-grafana) - The future of Grafana on Kubernetes with Prometheus.
 - [prometheus-operator](https://github.com/coreos/prometheus-operator/tree/master/jsonnet/prometheus-operator) - Jsonnet for deploying Prometheus Operator in Kubernetes.
+- [ksonnet-loki](https://github.com/grafana/loki/tree/master/production/ksonnet/loki) - Jsonnet for deploying Loki in Kubernetes.
+- [ksonnet-promtail](https://github.com/grafana/loki/tree/master/production/ksonnet/promtail) - Jsonnet for deploying promtail in Kubernetes.
 - [kube-prometheus](https://github.com/coreos/kube-prometheus/tree/master/jsonnet/kube-prometheus) - Jsonnet for deploying Prometheus in Kubernetes.
 - [blackbox-exporter-jsonnet](https://github.com/brancz/blackbox-exporter-jsonnet) - Jsonnet code for basic Kubernetes manifests for the [blackbox-exporter](https://github.com/prometheus/blackbox_exporter).
+- [oauth2-proxy](https://github.com/grafana/jsonnet-libs/blob/master/oauth2-proxy) - ksonnet configuration for deploying bitly's OAuth proxy to Kubernetes.
 
 ### Tools
 
