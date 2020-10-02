@@ -97,7 +97,7 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 ### Mixin Tools
 
 - [mixtool][monitoring-mixins/mixtool] - mixtool is a helper for easily working with jsonnet mixins.
-- [Grizzly][malcolmholmes/grizzly] - A utility for managing Jsonnet dashboards against the Grafana API.
+- [Grizzly][grafana/grizzly] - A utility for managing Jsonnet dashboards against the Grafana API.
 
 ### Mixin Guides & Talks
 
@@ -178,6 +178,7 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 [databricks/jsonnet-style-guide]: https://github.com/databricks/jsonnet-style-guide
 [grafana/cortex-jsonnet]: https://github.com/grafana/cortex-jsonnet
 [grafana/grafana-builder]: https://github.com/grafana/jsonnet-libs/tree/master/grafana-builder
+[grafana/grizzly]: https://github.com/grafana/grizzly
 [grafana/ksonnet-loki]: https://github.com/grafana/loki/tree/master/production/ksonnet/loki
 [grafana/ksonnet-promtail]: https://github.com/grafana/loki/tree/master/production/ksonnet/promtail
 [grafana/mixin-utils]: https://github.com/grafana/jsonnet-libs/tree/master/mixin-utils
@@ -189,7 +190,6 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 [jsonnet-libs/oauth2-proxy]: https://github.com/grafana/jsonnet-libs/blob/master/oauth2-proxy
 [legovaer/jsonnet-docblock-parser]: https://github.com/legovaer/jsonnet-docblock-parser
 [liamdawson/vscode-jsonnet-language]: https://github.com/liamdawson/vscode-jsonnet-language
-[malcolmholmes/grizzly]: https://github.com/malcolmholmes/grizzly
 [malcolmholmes/tanka-grafanacon-2020]: https://github.com/malcolmholmes/tanka-grafanacon-2020
 [metalmatze/slo-libsonnet]: https://github.com/metalmatze/slo-libsonnet
 [monitoring-mixins/mixtool]: https://github.com/monitoring-mixins/mixtool
