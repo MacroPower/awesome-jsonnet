@@ -132,13 +132,15 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 
 ### Kubernetes Libraries
 
+- [blackbox-exporter-jsonnet][brancz/blackbox-exporter-jsonnet] - Jsonnet for basic Kubernetes manifests for the [blackbox-exporter][prometheus/blackbox-exporter].
 - [cortex-jsonnet][grafana/cortex-jsonnet] - Jsonnet for deploying Cortex and the related monitoring in Kubernetes.
-- [kube-thanos][thanos-io/kube-thanos] - Kubernetes specific configuration for deploying Thanos.
-- [kubernetes-grafana][brancz/kubernetes-grafana] - Grafana on Kubernetes with Prometheus.
 - [ksonnet-loki][grafana/ksonnet-loki] - Jsonnet for deploying Loki in Kubernetes.
 - [ksonnet-promtail][grafana/ksonnet-promtail] - Jsonnet for deploying promtail in Kubernetes.
+- [kube-cockroachdb][metalmatze/kube-cockroachdb] - Jsonnet for deploying CockroachDB in Kubernetes.
 - [kube-prometheus][prometheus-operator/kube-prometheus] - Jsonnet for deploying Prometheus in Kubernetes.
-- [blackbox-exporter-jsonnet][brancz/blackbox-exporter-jsonnet] - Jsonnet for basic Kubernetes manifests for the [blackbox-exporter][prometheus/blackbox-exporter].
+- [kube-state-metrics][kubernetes/kube-state-metrics] - Jsonnet for deploying Kube State Metrics in Kubernetes.
+- [kube-thanos][thanos-io/kube-thanos] - Kubernetes specific configuration for deploying Thanos.
+- [kubernetes-grafana][brancz/kubernetes-grafana] - Grafana on Kubernetes with Prometheus.
 - [oauth2-proxy][jsonnet-libs/oauth2-proxy] - Jsonnet for deploying bitly's OAuth proxy to Kubernetes.
 
 ### Kubernetes Tools
@@ -201,9 +203,11 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 [jsonnet-libs/docsonnet]: https://github.com/jsonnet-libs/docsonnet
 [jsonnet-libs/k8s]: https://github.com/jsonnet-libs/k8s
 [jsonnet-libs/oauth2-proxy]: https://github.com/grafana/jsonnet-libs/blob/master/oauth2-proxy
+[kubernetes/kube-state-metrics]: https://github.com/kubernetes/kube-state-metrics/tree/master/jsonnet/kube-state-metrics
 [legovaer/jsonnet-docblock-parser]: https://github.com/legovaer/jsonnet-docblock-parser
 [liamdawson/vscode-jsonnet-language]: https://github.com/liamdawson/vscode-jsonnet-language
 [malcolmholmes/tanka-grafanacon-2020]: https://github.com/malcolmholmes/tanka-grafanacon-2020
+[metalmatze/kube-cockroachdb]: https://github.com/metalmatze/kube-cockroachdb
 [metalmatze/slo-libsonnet]: https://github.com/metalmatze/slo-libsonnet
 [monitoring-mixins/mixtool]: https://github.com/monitoring-mixins/mixtool
 [ncabatoff/grafana-dashboards]: https://github.com/ncabatoff/grafana-dashboards
