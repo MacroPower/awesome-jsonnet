@@ -42,12 +42,23 @@ _Source_: [jsonnet.org][jsonnet]
 
 - [jsonnet-bundler][jsonnet-bundler/jsonnet-bundler] - The jsonnet-bundler is a package manager for Jsonnet.
 
-### Guides & Talks
+### Help & Tutorials
 
 - [Jsonnet Tutorial][jsonnet/tutorial] - Official Jsonnet tutorial.
 - [Jsonnet Getting Started][jsonnet/getting-started] - Official Jsonnet getting started guide.
 - [Implus Jsonnet Tutorial](https://youtu.be/i5PVp92tAmE) - Jsonnet high-level tutorial.
-- [Databricks Jsonnet Guide][databricks/jsonnet-style-guide] - Databricks' Jsonnet coding style guide.
+- [Jsonnet Community][jsonnet/community] - Jsonnet communities.
+
+### References
+
+- [Jsonnet Language Reference][jsonnet/language] - Explains Jsonnet in detail.
+- [Jsonnet Standard Library Reference][jsonnet/stdlib] - Describes the functions available in Jsonnet's standard library.
+- [Jsonnet Style Guide][databricks/jsonnet-style-guide] - Jsonnet coding style guide by Databricks.
+
+### Bindings
+
+- [Jsonnet Bindings][jsonnet/bindings] - Official and recommended 3rd party bindings.
+- [terraform-provider-jsonnet][alxrem/terraform-provider-jsonnet] - Terraform provider for generating JSON documents from Jsonnet.
 
 ### Extensions
 
@@ -59,7 +70,6 @@ _Source_: [jsonnet.org][jsonnet]
 - [Jsonnet Tooling][jsonnet/tools] - Official and recommended 3rd party tooling.
 - [docsonnet][jsonnet-libs/docsonnet] - Jsonnet docs generator.
 - [Jsonnet Docblock Parser][legovaer/jsonnet-docblock-parser] - Parser that extracts docblocks from Jsonnet.
-- [terraform-provider-jsonnet][alxrem/terraform-provider-jsonnet] - Terraform provider for generating JSON documents from Jsonnet.
 - [vscode-jsonnet-language][liamdawson/vscode-jsonnet-language] - Replacement for the now defunct Hepito VS Code language support.
 
 ## Mixins
