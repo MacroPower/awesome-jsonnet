@@ -53,11 +53,13 @@ _Source_: [jsonnet.org][jsonnet]
 
 - [JsonnetUnit][yugui/jsonnetunit] - Unit testing framework for Jsonnet.
 - [xtd][xtd] - Extended Jsonnet standard library.
-- [docsonnet][jsonnet-libs/docsonnet] - Jsonnet docs generator.
 
-### Tooling
+### Tools
 
 - [Jsonnet Tooling][jsonnet/tools] - Official and recommended 3rd party tooling.
+- [docsonnet][jsonnet-libs/docsonnet] - Jsonnet docs generator.
+- [Jsonnet Docblock Parser][legovaer/jsonnet-docblock-parser] - Parser that extracts docblocks from Jsonnet.
+- [terraform-provider-jsonnet][alxrem/terraform-provider-jsonnet] - Terraform provider for generating JSON documents from Jsonnet.
 - [vscode-jsonnet-language][liamdawson/vscode-jsonnet-language] - Replacement for the now defunct Hepito VS Code language support.
 
 ## Mixins
@@ -108,10 +110,9 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [cortex-jsonnet][grafana/cortex-jsonnet] - Jsonnet for deploying Cortex and the related monitoring in Kubernetes.
 - [kube-thanos][thanos-io/kube-thanos] - Kubernetes specific configuration for deploying Thanos.
 - [kubernetes-grafana][brancz/kubernetes-grafana] - Grafana on Kubernetes with Prometheus.
-- [prometheus-operator][coreos/prometheus-operator] - Jsonnet for deploying Prometheus Operator in Kubernetes.
 - [ksonnet-loki][grafana/ksonnet-loki] - Jsonnet for deploying Loki in Kubernetes.
 - [ksonnet-promtail][grafana/ksonnet-promtail] - Jsonnet for deploying promtail in Kubernetes.
-- [kube-prometheus][coreos/kube-prometheus] - Jsonnet for deploying Prometheus in Kubernetes.
+- [kube-prometheus][prometheus-operator/kube-prometheus] - Jsonnet for deploying Prometheus in Kubernetes.
 - [blackbox-exporter-jsonnet][brancz/blackbox-exporter-jsonnet] - Jsonnet for basic Kubernetes manifests for the [blackbox-exporter][prometheus/blackbox-exporter].
 - [oauth2-proxy][jsonnet-libs/oauth2-proxy] - Jsonnet for deploying bitly's OAuth proxy to Kubernetes.
 
@@ -149,11 +150,10 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 
 <!-- Project Repos -->
 [adamwg/grafana-dashboards]: https://github.com/adamwg/grafana-dashboards
+[alxrem/terraform-provider-jsonnet]: https://github.com/alxrem/terraform-provider-jsonnet
 [andrewfarley/grafonnet-lib-dockerhub]: https://github.com/AndrewFarley/grafonnet-lib-dockerhub
 [brancz/blackbox-exporter-jsonnet]: https://github.com/brancz/blackbox-exporter-jsonnet
 [brancz/kubernetes-grafana]: https://github.com/brancz/kubernetes-grafana
-[coreos/kube-prometheus]: https://github.com/coreos/kube-prometheus/tree/master/jsonnet/kube-prometheus
-[coreos/prometheus-operator]: https://github.com/coreos/prometheus-operator/tree/master/jsonnet/prometheus-operator
 [databricks/jsonnet-style-guide]: https://github.com/databricks/jsonnet-style-guide
 [grafana/cortex-jsonnet]: https://github.com/grafana/cortex-jsonnet
 [grafana/grafana-builder]: https://github.com/grafana/jsonnet-libs/tree/master/grafana-builder
@@ -166,7 +166,7 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 [jsonnet-libs/docsonnet]: https://github.com/jsonnet-libs/docsonnet
 [jsonnet-libs/k8s]: https://github.com/jsonnet-libs/k8s
 [jsonnet-libs/oauth2-proxy]: https://github.com/grafana/jsonnet-libs/blob/master/oauth2-proxy
-[kubernetes-monitoring/kubernetes-mixin]: https://github.com/kubernetes-monitoring/kubernetes-mixin
+[legovaer/jsonnet-docblock-parser]: https://github.com/legovaer/jsonnet-docblock-parser
 [liamdawson/vscode-jsonnet-language]: https://github.com/liamdawson/vscode-jsonnet-language
 [malcolmholmes/grizzly]: https://github.com/malcolmholmes/grizzly
 [malcolmholmes/tanka-grafanacon-2020]: https://github.com/malcolmholmes/tanka-grafanacon-2020
@@ -178,6 +178,10 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 [thanos-io/kube-thanos]: https://github.com/thanos-io/kube-thanos
 [voronenko/sa_grafonnet_lib]: https://github.com/Voronenko/sa_grafonnet_lib
 [yugui/jsonnetunit]: https://github.com/yugui/jsonnetunit
+
+<!-- Project Repos (on monitoring.mixins.dev) -->
+[kubernetes-monitoring/kubernetes-mixin]: https://github.com/kubernetes-monitoring/kubernetes-mixin
+[prometheus-operator/mixin]: https://github.com/prometheus-operator/prometheus-operator/tree/master/jsonnet/mixin
 
 <!-- Project Websites -->
 [grafana]: https://grafana.com/
