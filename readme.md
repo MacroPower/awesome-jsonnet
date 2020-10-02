@@ -120,8 +120,7 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
   - Repo: [tanka-grafanacon-2020][malcolmholmes/tanka-grafanacon-2020]
 - [Managing Grafana Dashboards with grafonnet and git](https://youtu.be/kV3Ua6guynI) - PromCon 2019 talk by Adam Wolfe Gordon.
   - Repo: [grafana-dashboards][adamwg/grafana-dashboards]
-- [Prometheus Monitoring Mixins](https://youtu.be/GDdnL5R_l-Y) - PromCon 2018 talk by Tom Wilkie.
-- [Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://youtu.be/b7-DtFfsL6E) - Talk by Tom Wilkie.
+- [Using Jsonnet to Package Together Dashboards, Alerts, and Exporters][4] - PromCon 2018 talk by Tom Wilkie.
 - [Automating Grafana Dashboards with Jsonnet](https://youtu.be/zmsZq9Pfp1g) - Grafanacon 2018 talk by Julien Pivotto.
 
 ### Mixin CI/CD
@@ -249,6 +248,7 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 [1]: https://grafana.com/blog/2018/09/13/everything-you-need-to-know-about-monitoring-mixins/
 [2]: https://grafana.com/go/grafanaconline/tanka-declarative-dashboards-for-declarative-clusters/
 [3]: https://grafana.com/blog/2020/03/11/how-the-jsonnet-based-project-tanka-improves-kubernetes-usage/
+[4]: https://promcon.io/2018-munich/talks/prometheus-monitoring-mixins/
 
 <!-- User Credits -->
 [ncabatoff]: https://github.com/ncabatoff
