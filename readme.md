@@ -74,9 +74,7 @@ _Source_: [jsonnet.org][jsonnet]
 
 ## Mixins
 
-Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording rules, and/or Prometheus alerts.
-
-**Readers should begin by visiting [monitoring.mixins.dev][monitoring.mixins.dev], _the_ comprehensive resource for mixins. This repo only includes links to mixin resources not already found on monitoring.mixins.dev.**
+Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording rules, and/or Prometheus alerts. See the [Prometheus Monitoring Mixins Design Doc](https://docs.google.com/document/d/1A9xvzwqnFVSOZ5fD3blKODXfsat5fg6ZhnKu9LK3lB4/view).
 
 ### Mixin Websites
 
@@ -85,14 +83,30 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 
 ### Mixin Libraries
 
-- [Grafonnet][grafonnet] - Jsonnet library for generating Grafana dashboard files.
+- [Ceph Mixin][ceph/ceph-mixins] - Prometheus alerts for Ceph.
+- [cert-manager Mixin][uneeq-oss/cert-manager-mixin] - Prometheus Mixin for [cert-manager][cert-manager].
+- [CockroachDB Mixin][metalmatze/kube-cockroachdb-monitoring] - Monitoring definitions for CockroachDB.
+- [Consul Mixin][grafana/consul-mixin] - Reuseable and extensible dashboards and alerts for running Hashicorp's Consul.
+- [CoreDNS Mixin][povilasv/coredns-mixin] - Grafana dashboard and Prometheus Alerts to monitor CoreDNS.
+- [Cortex Mixin][grafana/cortex-mixin] - Monitoring for [cortex-jsonnet][grafana/cortex-jsonnet].
 - [ECS Mixin][voronenko/sa_grafonnet_lib] - Set of panels, metrics, templates to visualize state of your ECS clusters.
-- [Jaeger Mixin][jaegertracing/jaeger-mixin] - Official Prometheus monitoring mixin for Jaeger.
+- [etcd Mixin][etcd-io/etcd-mixin] - Customizable Prometheus alerts for etcd.
+- [Gluster Mixin][gluster/gluster-mixins] - Grafana dashboards and Prometheus alerts for Gluster.
 - [grafana-builder][grafana/grafana-builder] - Library for building Grafana dashboards with Jsonnet, following the builder pattern.
-- [mixin-utils][grafana/mixin-utils] - Grafana Labs' mixin utilities.
-- [SLO libsonnet][metalmatze/slo-libsonnet] - Generate Prometheus alerting & recording rules and Grafana dashboards for your SLOs.
-- [Prometheus Ksonnet Mixin][grafana/prometheus-ksonnet] - A set of extensible configurations for running Prometheus on Kubernetes.
 - [grafana-dashboards][ncabatoff/grafana-dashboards] - Collection of misc Grafana dashboards created by [ncabatoff][ncabatoff].
+- [Grafonnet][grafonnet] - Jsonnet library for generating Grafana dashboard files.
+- [Jaeger Mixin][grafana/jaeger-mixin] - Grafana's monitoring definitions for Jaeger.
+- [Jaeger Mixin][jaegertracing/jaeger-mixin] - Official Prometheus monitoring mixin for Jaeger.
+- [Kube State Metrics Mixin][kubernetes/kube-state-metrics-mixin] - Monitoring definitions for Kube State Metrics.
+- [Kubernetes Mixin][kubernetes-monitoring/kubernetes-mixin] - Grafana dashboards and Prometheus alerts for Kubernetes.
+- [Memcached Mixin][grafana/memcached-mixin] - Reuseable and extensible dashboards for Memcached.
+- [mixin-utils][grafana/mixin-utils] - Grafana Labs' mixin utilities.
+- [Node Mixin][prometheus/node-mixin] - Monitoring definitions based on the metrics exported by the Node Exporter.
+- [Prometheus Ksonnet Mixin][grafana/prometheus-ksonnet] - A set of extensible configurations for running Prometheus on Kubernetes.
+- [Prometheus Mixin][prometheus/prometheus-mixin] - Configurable, reusable, and extensible alerts and dashboards for Prometheus.
+- [Sealed Secrets Mixin][bitnami-labs/sealed-secrets] - Dashboards, recording rules, alerts and alert tests for Sealed Secrets.
+- [SLO libsonnet][metalmatze/slo-libsonnet] - Generate Prometheus alerting & recording rules and Grafana dashboards for your SLOs.
+- [Thanos Mixin][thanos-io/mixin] - Extensible and customizable monitoring definitions for Thanos.
 
 ### Mixin Tools
 
@@ -200,11 +214,27 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 [voronenko/sa_grafonnet_lib]: https://github.com/Voronenko/sa_grafonnet_lib
 [yugui/jsonnetunit]: https://github.com/yugui/jsonnetunit
 
-<!-- Project Repos (on monitoring.mixins.dev) -->
+<!-- Project Repos (from monitoring.mixins.dev) -->
+[bitnami-labs/sealed-secrets]: https://github.com/bitnami-labs/sealed-secrets/tree/master/contrib/prometheus-mixin
+[ceph/ceph-mixins]: https://github.com/ceph/ceph-mixins
+[etcd-io/etcd-mixin]: https://github.com/etcd-io/etcd/tree/master/Documentation/etcd-mixin
+[gluster/gluster-mixins]: https://github.com/gluster/gluster-mixins
+[grafana/consul-mixin]: https://github.com/grafana/jsonnet-libs/tree/master/consul-mixin
+[grafana/cortex-mixin]: https://github.com/grafana/cortex-jsonnet/tree/master/cortex-mixin
+[grafana/jaeger-mixin]: https://github.com/grafana/jsonnet-libs/tree/master/jaeger-mixin
+[grafana/memcached-mixin]: https://github.com/grafana/jsonnet-libs/blob/master/memcached-mixin
 [kubernetes-monitoring/kubernetes-mixin]: https://github.com/kubernetes-monitoring/kubernetes-mixin
+[kubernetes/kube-state-metrics-mixin]: https://github.com/kubernetes/kube-state-metrics/tree/master/jsonnet/kube-state-metrics-mixin
+[metalmatze/kube-cockroachdb-monitoring]: https://github.com/metalmatze/kube-cockroachdb/tree/master/monitoring
+[povilasv/coredns-mixin]: https://github.com/povilasv/coredns-mixin
 [prometheus-operator/mixin]: https://github.com/prometheus-operator/prometheus-operator/tree/master/jsonnet/mixin
+[prometheus/node-mixin]: https://github.com/prometheus/node_exporter/tree/master/docs/node-mixin
+[prometheus/prometheus-mixin]: https://github.com/prometheus/prometheus/tree/master/documentation/prometheus-mixin
+[thanos-io/mixin]: https://github.com/thanos-io/thanos/tree/master/mixin
+[uneeq-oss/cert-manager-mixin]: https://gitlab.com/uneeq-oss/cert-manager-mixin
 
 <!-- Project Websites -->
+[cert-manager]: https://cert-manager.io/
 [grafana]: https://grafana.com/
 [grafonnet]: https://grafana.github.io/grafonnet-lib/
 [ksonnet]: https://ksonnet.io/
