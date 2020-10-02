@@ -78,12 +78,12 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 
 **Readers should begin by visiting [monitoring.mixins.dev][monitoring.mixins.dev], _the_ comprehensive resource for mixins. This repo only includes links to mixin resources not already found on monitoring.mixins.dev.**
 
-### Websites
+### Mixin Websites
 
 - [monitoring.mixins.dev][monitoring.mixins.dev] - Comprehensive resource for mixins.
 - [promtools.dev][promtools.dev] - Generate SLOs for Prometheus with Jsonnet. Implements [SLO libsonnet][metalmatze/slo-libsonnet].
 
-### Libraries
+### Mixin Libraries
 
 - [Grafonnet][grafonnet] - Jsonnet library for generating Grafana dashboard files.
 - [ECS Mixin][voronenko/sa_grafonnet_lib] - Set of panels, metrics, templates to visualize state of your ECS clusters.
@@ -94,28 +94,30 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [Prometheus Ksonnet Mixin][grafana/prometheus-ksonnet] - A set of extensible configurations for running Prometheus on Kubernetes.
 - [grafana-dashboards][ncabatoff/grafana-dashboards] - Collection of misc Grafana dashboards created by [ncabatoff][ncabatoff].
 
-### Tools
+### Mixin Tools
 
 - [mixtool][monitoring-mixins/mixtool] - mixtool is a helper for easily working with jsonnet mixins.
 - [Grizzly][malcolmholmes/grizzly] - A utility for managing Jsonnet dashboards against the Grafana API.
 
-### Guides & Talks
+### Mixin Guides & Talks
 
-- [Everything You Need to Know About Monitoring Mixins](https://grafana.com/blog/2018/09/13/everything-you-need-to-know-about-monitoring-mixins/)
-- [Tanka: Declarative Dashboards for Declarative Clusters](https://grafana.com/go/grafanaconline/tanka-declarative-dashboards-for-declarative-clusters/) - Grafanacon 2020 talk by Malcolm Holmes. Repo: [tanka-grafanacon-2020][malcolmholmes/tanka-grafanacon-2020]
-- [Managing Grafana Dashboards with grafonnet and git](https://youtu.be/kV3Ua6guynI) - PromCon 2019 talk by Adam Wolfe Gordon. Repo: [grafana-dashboards][adamwg/grafana-dashboards]
+- [Everything You Need to Know About Monitoring Mixins][1]
+- [Tanka: Declarative Dashboards for Declarative Clusters][2] - Grafanacon 2020 talk by Malcolm Holmes.
+  - Repo: [tanka-grafanacon-2020][malcolmholmes/tanka-grafanacon-2020]
+- [Managing Grafana Dashboards with grafonnet and git](https://youtu.be/kV3Ua6guynI) - PromCon 2019 talk by Adam Wolfe Gordon.
+  - Repo: [grafana-dashboards][adamwg/grafana-dashboards]
 - [Prometheus Monitoring Mixins](https://youtu.be/GDdnL5R_l-Y) - PromCon 2018 talk by Tom Wilkie.
-- [Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://www.youtube.com/watch?v=b7-DtFfsL6E) - Talk by Tom Wilkie.
+- [Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://youtu.be/b7-DtFfsL6E) - Talk by Tom Wilkie.
 - [Automating Grafana Dashboards with Jsonnet](https://youtu.be/zmsZq9Pfp1g) - Grafanacon 2018 talk by Julien Pivotto.
 
-### CI/CD
+### Mixin CI/CD
 
 - [Grafonnet Lib Docker][andrewfarley/grafonnet-lib-dockerhub] - Simple Docker image that has Jsonnet and Grafana's grafonnet lib for CI/CD purposes.
 - [grafana-dashboards][adamwg/grafana-dashboards] - Example project containing Github actions to automate dashboard CI/CD.
 
 ## Kubernetes
 
-### Libraries
+### Kubernetes Libraries
 
 - [cortex-jsonnet][grafana/cortex-jsonnet] - Jsonnet for deploying Cortex and the related monitoring in Kubernetes.
 - [kube-thanos][thanos-io/kube-thanos] - Kubernetes specific configuration for deploying Thanos.
@@ -126,15 +128,20 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [blackbox-exporter-jsonnet][brancz/blackbox-exporter-jsonnet] - Jsonnet for basic Kubernetes manifests for the [blackbox-exporter][prometheus/blackbox-exporter].
 - [oauth2-proxy][jsonnet-libs/oauth2-proxy] - Jsonnet for deploying bitly's OAuth proxy to Kubernetes.
 
-### Tools
+### Kubernetes Tools
 
 - [Tanka][tanka] - [Grafana][grafana]'s reimplementation of [Ksonnet][ksonnet]. Flexible, reusable and concise configuration for Kubernetes.
 - [qbec][qbec] - Tool to configure and create Kubernetes objects on multiple environments by [Splunk][splunk].
 - [k8s][jsonnet-libs/k8s] - Code generator for the Jsonnet Kubernetes library.
 
-### Guides & Talks
+### Kubernetes Guides & Talks
 
-- [How the Jsonnet-based project Tanka improves Kubernetes usage](https://grafana.com/blog/2020/03/11/how-the-jsonnet-based-project-tanka-improves-kubernetes-usage/) - FOSDEM 2020 talk by Tom Braack and Malcolm Holmes.
+- [How the Jsonnet-based project Tanka improves Kubernetes usage][3] - FOSDEM 2020 talk by Tom Braack and Malcolm Holmes.
+
+## Other Awesome Lists
+
+- [awesome-jsonnet][metalmatze/awesome-jsonnet] by [Matthias Loibl][metalmatze].
+- [awesome-libsonnet][sh0rez/awesome-libsonnet] by [sh0rez][sh0rez].
 
 ## Contribute
 
@@ -152,7 +159,11 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 
 <!-- Jsonnet Pages -->
 [jsonnet]: https://jsonnet.org/
+[jsonnet/bindings]: https://jsonnet.org/ref/bindings.html
+[jsonnet/community]: https://jsonnet.org/learning/community.html
 [jsonnet/getting-started]: https://jsonnet.org/learning/getting_started.html
+[jsonnet/language]: https://jsonnet.org/ref/language.html
+[jsonnet/stdlib]: https://jsonnet.org/ref/stdlib.html
 [jsonnet/tools]: https://jsonnet.org/learning/tools.html
 [jsonnet/tutorial]: https://jsonnet.org/learning/tutorial.html
 [google/jsonnet]: https://github.com/google/jsonnet
@@ -204,8 +215,15 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 [tanka]: https://tanka.dev/
 [xtd]: https://jsonnet-libs.github.io/xtd/
 
+<!-- Articles -->
+[1]: https://grafana.com/blog/2018/09/13/everything-you-need-to-know-about-monitoring-mixins/
+[2]: https://grafana.com/go/grafanaconline/tanka-declarative-dashboards-for-declarative-clusters/
+[3]: https://grafana.com/blog/2020/03/11/how-the-jsonnet-based-project-tanka-improves-kubernetes-usage/
+
 <!-- User Credits -->
 [ncabatoff]: https://github.com/ncabatoff
+[metalmatze]: https://github.com/metalmatze
+[sh0rez]: https://github.com/sh0rez
 
 <!-- Similar Lists -->
 [metalmatze/awesome-jsonnet]: https://github.com/metalmatze/awesome-jsonnet
