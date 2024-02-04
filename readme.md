@@ -70,7 +70,9 @@ _Source_: [jsonnet.org][jsonnet]
 - [Jsonnet Tooling][jsonnet/tools] - Official and recommended 3rd party tooling.
 - [docsonnet][jsonnet-libs/docsonnet] - Jsonnet docs generator.
 - [Jsonnet Docblock Parser][legovaer/jsonnet-docblock-parser] - Parser that extracts docblocks from Jsonnet.
-- [vscode-jsonnet-language][liamdawson/vscode-jsonnet-language] - Replacement for the now defunct Hepito VS Code language support.
+- [vscode-jsonnet][grafana/vscode-jsonnet] - VS Code language support for Jsonnet.
+- [vim-jsonnet][google/vim-jsonnet] - Jsonnet filetype plugin for Vim.
+- [intellij-jsonnet][databricks/intellij-jsonnet] - Intellij Jsonnet Plugin.
 
 ## Mixins
 
@@ -158,6 +160,10 @@ Jsonnet packages/libraries that contain Grafana dashboards, Prometheus recording
 - [awesome-jsonnet][metalmatze/awesome-jsonnet] by [Matthias Loibl][metalmatze].
 - [awesome-libsonnet][sh0rez/awesome-libsonnet] by [sh0rez][sh0rez].
 
+## Similar Languages
+
+- [CUE](https://cuelang.org/)
+
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
@@ -190,7 +196,9 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 [andrewfarley/grafonnet-lib-dockerhub]: https://github.com/AndrewFarley/grafonnet-lib-dockerhub
 [brancz/blackbox-exporter-jsonnet]: https://github.com/brancz/blackbox-exporter-jsonnet
 [brancz/kubernetes-grafana]: https://github.com/brancz/kubernetes-grafana
+[databricks/intellij-jsonnet]: https://github.com/databricks/intellij-jsonnet
 [databricks/jsonnet-style-guide]: https://github.com/databricks/jsonnet-style-guide
+[google/vim-jsonnet]: https://github.com/google/vim-jsonnet
 [grafana/cortex-jsonnet]: https://github.com/grafana/cortex-jsonnet
 [grafana/grafana-builder]: https://github.com/grafana/jsonnet-libs/tree/master/grafana-builder
 [grafana/grizzly]: https://github.com/grafana/grizzly
@@ -198,6 +206,7 @@ To the extent possible under law, Jacob Colvin has waived all copyright and rela
 [grafana/ksonnet-promtail]: https://github.com/grafana/loki/tree/master/production/ksonnet/promtail
 [grafana/mixin-utils]: https://github.com/grafana/jsonnet-libs/tree/master/mixin-utils
 [grafana/prometheus-ksonnet]: https://github.com/grafana/jsonnet-libs/tree/master/prometheus-ksonnet
+[grafana/vscode-jsonnet]: https://github.com/grafana/vscode-jsonnet
 [jaegertracing/jaeger-mixin]: https://github.com/jaegertracing/jaeger/tree/master/monitoring/jaeger-mixin
 [jsonnet-bundler/jsonnet-bundler]: https://github.com/jsonnet-bundler/jsonnet-bundler
 [jsonnet-libs/docsonnet]: https://github.com/jsonnet-libs/docsonnet
